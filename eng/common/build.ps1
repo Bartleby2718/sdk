@@ -104,6 +104,7 @@ function Build {
     [string[]] $msbuildArgs = $properties
     
     # Resolve relative project paths into full paths 
+    $projects = @("src\Cli\dotnet\dotnet.csproj", "test\dotnet-sln.Tests\dotnet-sln.Tests.csproj")
     $projects = ($projects.Split(';').ForEach({Resolve-Path $_}) -join ';')
     
     $msbuildArgs += "/p:Projects=$projects"

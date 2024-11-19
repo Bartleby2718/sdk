@@ -6,5 +6,5 @@ if %errorlevel%==0 (
 ) else (
     set PackInstaller=/p:PackInstaller=false
 )
-powershell -NoLogo -NoProfile -ExecutionPolicy ByPass -command "& """%~dp0eng\common\build.ps1""" -restore -build -nativeToolsOnMachine -msbuildEngine dotnet %PackInstaller% %*"
+powershell -NoLogo -NoProfile -ExecutionPolicy ByPass -command "& """%~dp0eng\common\build.ps1""" -build -nativeToolsOnMachine -msbuildEngine dotnet %PackInstaller% %*"
 exit /b %ErrorLevel%

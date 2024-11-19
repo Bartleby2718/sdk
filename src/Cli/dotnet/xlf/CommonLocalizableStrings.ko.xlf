@@ -319,8 +319,8 @@ The default is 'false.' However, when targeting .NET 7 or lower, the default is 
         <note />
       </trans-unit>
       <trans-unit id="SolutionItemAddedToTheSolution">
-        <source>Solution item `{0}` added to the solution.</source>
-        <target state="new">Solution item `{0}` added to the solution.</target>
+        <source>Solution item `{0}` added to the solution folder `{1}`.</source>
+        <target state="new">Solution item `{0}` added to the solution folder `{1}`.</target>
         <note />
       </trans-unit>
       <trans-unit id="SolutionItemRemovedFromTheSolution">

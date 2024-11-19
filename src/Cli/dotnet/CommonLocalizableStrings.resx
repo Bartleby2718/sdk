@@ -393,9 +393,8 @@
   <data name="ProjectRemovedFromTheSolution" xml:space="preserve">
     <value>Project `{0}` removed from the solution.</value>
   </data>
-  <!-- TODO: add support for solution folder name -->
   <data name="SolutionItemAddedToTheSolution" xml:space="preserve">
-    <value>Solution item `{0}` added to the solution.</value>
+    <value>Solution item `{0}` added to the solution folder `{1}`.</value>
   </data>
   <data name="SolutionItemRemovedFromTheSolution" xml:space="preserve">
     <value>Solution item `{0}` removed from the solution.</value>

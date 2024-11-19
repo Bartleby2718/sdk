@@ -318,8 +318,8 @@ Výchozí hodnota je false, ale pokud cílíte na .NET 7 nebo nižší a je zad�
         <note />
       </trans-unit>
       <trans-unit id="SolutionItemAddedToTheSolution">
-        <source>Solution item `{0}` added to the solution.</source>
-        <target state="new">Solution item `{0}` added to the solution.</target>
+        <source>Solution item `{0}` added to the solution folder `{1}`.</source>
+        <target state="new">Solution item `{0}` added to the solution folder `{1}`.</target>
         <note />
       </trans-unit>
       <trans-unit id="SolutionItemRemovedFromTheSolution">
